@@ -2,6 +2,10 @@
 
 Simple mybb plugin to log failed authentication requests.
 
+## Compatibility
+
+- TODO
+
 ## Installation
 
 - Download the `authlog.php` file
