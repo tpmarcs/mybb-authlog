@@ -28,4 +28,8 @@ Log syntax is the following:
 
 ### Fail2Ban
 
-Additionaly you can configure a fail2ban filter to block malicious clients based on there ips by downloading and installing `mybb.conf` to `/etc/fail2ban/filter.d/`.
+Additionaly you can configure a fail2ban filter to block malicious clients based on there ips by downloading and installing `mybb.conf` to `/etc/fail2ban/filter.d/`. Afterwards you need to adjust `/etc/fail2ban/jail.local` to include the given filter with parameters that fit you needs.
+
+Finally restart fail2ban to go live with your configuration: 
+
+`service fail2ban restart`
