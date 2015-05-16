@@ -4,7 +4,7 @@ Simple mybb plugin to log failed authentication requests.
 
 ## Compatibility
 
-- Currently comatible and tested with mybb version 1.8.x
+- Currently compatible and tested with mybb version 1.8.x
 
 ## Installation
 
