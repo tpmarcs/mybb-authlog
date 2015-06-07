@@ -91,7 +91,7 @@ function authlog_log($auth) {
 	}
 
 	global $mybb;
-	$logline = "mybb: login failure for user " . $auth->data["username"] . " with ip " . $_SERVER["REMOTE_ADDR"] . " in ";
+	$logline = "mybb: login failure for user " . rawurlencode($auth->data["username"]) . " with ip " . $_SERVER["REMOTE_ADDR"] . " in ";
 
 	if (defined("IN_ADMINCP")) {
 		authlog_log_line($logline . "admin cp");
